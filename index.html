@@ -105,7 +105,9 @@ section{padding:84px 0}
 .plano.destaque li b{color:#9EC1FF}
 .ribbon{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--laranja);color:#fff;font-size:12px;font-weight:800;letter-spacing:.6px;padding:6px 14px;border-radius:999px;white-space:nowrap}
 .streams{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:40px}
-.streams span{background:var(--azul-claro);color:var(--azul);font-weight:700;font-size:14px;padding:10px 18px;border-radius:999px}
+.streams span{background:#fff;border:1px solid var(--azul-claro);box-shadow:0 2px 10px rgba(0,0,0,.05);padding:12px 22px;border-radius:999px;display:flex;align-items:center;justify-content:center;height:56px}
+.streams img{height:26px;width:auto;max-width:120px;object-fit:contain;display:block}
+.streams img.hbo{width:140px;max-width:140px;object-fit:cover;object-position:center 26%}
 .nota{text-align:center;color:var(--cinza);font-size:14px;margin-top:16px}
 
 /* Seu Assis */
@@ -330,7 +332,7 @@ footer .logo small{color:#fff}
       </div>
     </div>
     <div class="streams">
-      <span>Deezer</span><span>Prime Video</span><span>Disney+</span><span>HBO Max</span><span>Apple TV+</span>
+      <span><img src="img/deezer.webp" alt="Deezer" loading="lazy"></span><span><img src="img/prime-video.webp" alt="Prime Video" loading="lazy"></span><span><img src="img/disney.webp" alt="Disney+" loading="lazy"></span><span><img class="hbo" src="img/hbo-max.png" alt="HBO Max" loading="lazy"></span><span><img src="img/apple-tv.webp" alt="Apple TV+" loading="lazy"></span>
     </div>
     <p class="nota">Streamings disponíveis para escolha nos planos com "2 streamings". Assistência Residencial inclusa nos planos Performance I, Performance II e Expert.</p>
   </div>
